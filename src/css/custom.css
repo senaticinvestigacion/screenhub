@@ -1,0 +1,128 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* High-End Enterprise Palette */
+  --ifm-color-primary: #006847;
+  --ifm-color-primary-dark: #005e40;
+  --ifm-color-primary-darker: #00593c;
+  --ifm-color-primary-darkest: #004932;
+  --ifm-color-primary-light: #00724e;
+  --ifm-color-primary-lighter: #007752;
+  --ifm-color-primary-lightest: #00875d;
+  
+  --ifm-font-family-base: 'Inter', sans-serif;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Enterprise UI Variables */
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --card-hover-shadow: 0 20px 40px rgba(0, 104, 71, 0.15);
+  --transition-speed: 0.4s;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #00a875;
+  --ifm-color-primary-dark: #009769;
+  --ifm-color-primary-darker: #008f63;
+  --ifm-color-primary-darkest: #007652;
+  --ifm-color-primary-light: #00b981;
+  --ifm-color-primary-lighter: #00c187;
+  --ifm-color-primary-lightest: #00db9a;
+  
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  --card-hover-shadow: 0 20px 40px rgba(0, 168, 117, 0.15);
+}
+
+/* Navbar Customization */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 0.7rem 1.5rem;
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.navbar__logo {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+/* Hero Section Enhancement */
+.heroBanner {
+  padding: 10rem 0;
+  background: linear-gradient(rgba(0, 104, 71, 0.8), rgba(0, 73, 50, 0.9)), url('/img/hero_bg.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.hero__title {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2v-4h4v-2H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Enterprise Card Styling */
+.enterprise-card {
+  background: var(--ifm-background-color);
+  border-radius: 12px;
+  padding: 2.5rem;
+  height: 100%;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all var(--transition-speed) ease;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.enterprise-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--card-hover-shadow);
+}
+
+.enterprise-card h3 {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+.enterprise-card p {
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Badge and Meta */
+.badge--corporate {
+  background-color: var(--ifm-color-primary-light);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

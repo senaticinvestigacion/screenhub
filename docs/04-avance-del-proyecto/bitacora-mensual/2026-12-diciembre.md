@@ -1,0 +1,23 @@
+﻿# Diciembre 2026 - Bitácora de Desarrollo
+
+## 📊 Resumen del Mes
+*Por completar...*
+
+## ✅ Hitos Alcanzados
+- [ ] 
+- [ ] 
+
+## 🛠️ Actividades Realizadas
+### Semana 1
+- 
+### Semana 2
+- 
+### Semana 3
+- 
+### Semana 4
+- 
+
+## 📸 Evidencias
+Para consultar las evidencias detalladas, registros fotográficos y documentos de respaldo de este mes, acceda al siguiente enlace oficial:
+
+[📁 Carpeta de Evidencias Google Drive](https://drive.google.com/drive/folders/18MlB-qkEoTmAhG36N0FsXw2HUoR1Y44f?usp=sharing)
