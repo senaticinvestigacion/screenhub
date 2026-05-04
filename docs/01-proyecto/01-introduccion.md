@@ -42,6 +42,7 @@ El proyecto es liderado y desarrollado por un equipo interdisciplinario del **CT
 - **Hugo Alberto Zapata Mazo**
 - **Jaime Alberto Zapata Valencia**
 - **Deimer Miranda**
+- **Jhon Fredy Valencia Gómez**
 
 ### Semillero de Software
 - **Ana María Urrego Carmona**
