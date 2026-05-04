@@ -47,7 +47,7 @@ El proyecto es liderado y desarrollado por un equipo interdisciplinario del **CT
 - **Ana María Urrego Carmona**
 - **Samuel Moreno Carmona**
 - **Simón Sierra López**
-- **José Manuel Ruiz Zapata**
+- **Juan Jose Giraldo Monsalve**
 
 ---
 
