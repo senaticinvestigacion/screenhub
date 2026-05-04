@@ -20,16 +20,17 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://jhonf.github.io',
+  url: 'https://senaticinvestigacion.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ScreenHub/',
+  baseUrl: '/screenhub/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jhonf', // Usually your GitHub org/user name.
-  projectName: 'ScreenHub', // Usually your repo name.
+  organizationName: 'senaticinvestigacion', // Usually your GitHub org/user name.
+  projectName: 'screenhub', // Usually your repo name.
   trailingSlash: false,
+
 
 
   onBrokenLinks: 'throw',
@@ -52,7 +53,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/senaticinvestigacion/screenhub/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +64,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/senaticinvestigacion/screenhub/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -104,7 +105,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://github.com/jhonf/ScreenHub',
+            href: 'https://github.com/senaticinvestigacion/screenhub',
             label: 'GitHub',
             position: 'right',
           },
@@ -139,7 +140,7 @@ const config = {
               },
               {
                 label: 'Semillero de Software',
-                href: 'https://github.com/jhonf/ScreenHub', // O link real si existe
+                href: 'https://github.com/senaticinvestigacion/screenhub', // O link real si existe
               },
             ],
           },
@@ -152,7 +153,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/jhonf/ScreenHub',
+                href: 'https://github.com/senaticinvestigacion/screenhub',
               },
             ],
           },
