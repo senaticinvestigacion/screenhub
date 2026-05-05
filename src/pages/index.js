@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
@@ -56,7 +57,7 @@ export default function Home() {
             <div className="col col--4 margin-bottom--lg">
               <div className="enterprise-card">
                 <div className="card-icon margin-bottom--md">
-                  <img src="/img/icon_project_v2.png" alt="Proyecto" style={{width: '140px', height: '140px', objectFit: 'contain'}} />
+                  <img src={useBaseUrl('/img/icon_project_v2.png')} alt="Proyecto" style={{width: '140px', height: '140px', objectFit: 'contain'}} />
                 </div>
                 <Heading as="h3">El Proyecto</Heading>
                 <p>Estrategia, objetivos y alineación con el Plan Nacional de Desarrollo e institucional del SENA.</p>
@@ -66,7 +67,7 @@ export default function Home() {
             <div className="col col--4 margin-bottom--lg">
               <div className="enterprise-card">
                 <div className="card-icon margin-bottom--md">
-                  <img src="/img/icon_tech_v2.png" alt="Técnica" style={{width: '140px', height: '140px', objectFit: 'contain'}} />
+                  <img src={useBaseUrl('/img/icon_tech_v2.png')} alt="Técnica" style={{width: '140px', height: '140px', objectFit: 'contain'}} />
                 </div>
                 <Heading as="h3">Solución Técnica</Heading>
                 <p>Arquitectura Full Stack, MiniPCs, despliegue IoT y asistencia inteligente con Google Gemini.</p>
@@ -76,7 +77,7 @@ export default function Home() {
             <div className="col col--4 margin-bottom--lg">
               <div className="enterprise-card">
                 <div className="card-icon margin-bottom--md">
-                  <img src="/img/icon_progress_v2.png" alt="Avance" style={{width: '140px', height: '140px', objectFit: 'contain'}} />
+                  <img src={useBaseUrl('/img/icon_progress_v2.png')} alt="Avance" style={{width: '140px', height: '140px', objectFit: 'contain'}} />
                 </div>
                 <Heading as="h3">Avance Mensual</Heading>
                 <p>Seguimiento detallado de hitos y bitácoras de desarrollo estratégico 2026.</p>

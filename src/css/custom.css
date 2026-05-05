@@ -59,7 +59,7 @@
 /* Hero Section Enhancement */
 .heroBanner {
   padding: 10rem 0;
-  background: linear-gradient(rgba(0, 104, 71, 0.8), rgba(0, 73, 50, 0.9)), url('/img/hero_bg.png');
+  background: linear-gradient(rgba(0, 104, 71, 0.8), rgba(0, 73, 50, 0.9)), url('../../static/img/hero_bg.png');
   background-size: cover;
   background-position: center;
   position: relative;

@@ -2,7 +2,7 @@
 
 El proyecto **ScreenHub** surge como una respuesta a la necesidad de centralizar, estandarizar y profesionalizar la gestión de contenidos y el monitoreo ambiental en los centros de formación del SENA. Esta plataforma de documentación permite no solo registrar el desarrollo técnico, sino también realizar un seguimiento mensual detallado de los avances y hitos alcanzados.
 
-![Imagen de Introducción ScreenHub](/img/intro.png)
+![Imagen de Introducción ScreenHub](../../static/img/intro.png)
 
 ## Beneficiarios del Proyecto
 **Beneficiarios Directos:** Todos los centros de formación del SENA a nivel nacional (especialmente sus administradores, publicadores y auditores de contenidos), instructores y aprendices de los programas de Electrónica, Desarrollo de Software y afines del CTMA y sedes piloto.
