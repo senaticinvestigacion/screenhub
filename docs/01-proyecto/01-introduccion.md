@@ -39,7 +39,7 @@ Es necesario dotar a cada centro de formación con herramientas propias de comun
 El proyecto es liderado y desarrollado por un equipo interdisciplinario del **CTMA - SENA**, conformado por:
 
 ### Instructores Investigadores
-- **Hugo Alberto Zapata Mazo**
+- **Hugo Alberto Santana Mazo**
 - **Jaime Alberto Zapata Valencia**
 - **Deimer Miranda**
 - **Jhon Fredy Valencia Gómez**
